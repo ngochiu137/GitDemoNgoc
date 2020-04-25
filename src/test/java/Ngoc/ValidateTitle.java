@@ -24,6 +24,8 @@ public class ValidateTitle extends base{
 		driver = initializeDriver();
 		log.info("initialize Driver");
 		driver.get("http://qaclickacademy.com");
+		System.out.println("ngoc update git");
+		
 		log.info("Welcome to academy.com homepage");
 		
 		//one is inheritance
