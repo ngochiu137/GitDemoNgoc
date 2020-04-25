@@ -1,0 +1,8 @@
+09:41:21.016 [main] INFO  resources.base - Interview course link is displayed
+09:41:51.034 [main] INFO  resources.base - go to home page
+09:41:57.725 [main] INFO  resources.base - Click log in button
+09:41:57.795 [main] INFO  resources.base - enter username
+09:41:57.848 [main] INFO  resources.base - enter password
+09:42:00.508 [main] ERROR resources.base - log in failed
+09:42:01.760 [main] INFO  resources.base - go to home page
+09:42:05.235 [main] INFO  resources.base - Click log in button

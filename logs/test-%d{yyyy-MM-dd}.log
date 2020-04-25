@@ -1,0 +1,5 @@
+08:11:13.695 [main] ERROR resources.base - log in failed
+08:11:19.154 [main] INFO  resources.base - initialize Driver
+08:11:21.055 [main] INFO  resources.base - Welcome to academy.com homepage
+08:11:21.099 [main] ERROR resources.base - Title is not match
+08:11:29.384 [main] INFO  resources.base - Interview course link is displayed

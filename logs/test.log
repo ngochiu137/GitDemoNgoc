@@ -1,0 +1,7 @@
+09:42:05.342 [main] INFO  resources.base - enter username
+09:42:05.437 [main] INFO  resources.base - enter password
+09:42:07.784 [main] ERROR resources.base - log in failed
+09:42:12.733 [main] INFO  resources.base - initialize Driver
+09:42:15.816 [main] INFO  resources.base - Welcome to academy.com homepage
+09:42:15.868 [main] ERROR resources.base - Title is not match
+09:42:23.674 [main] INFO  resources.base - Interview course link is displayed

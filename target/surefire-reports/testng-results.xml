@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41227" started-at="2020-04-19T09:41:43 ICT" finished-at="2020-04-19T09:42:25 ICT">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="25542" started-at="2020-04-19T09:41:43 ICT" finished-at="2020-04-19T09:42:09 ICT">
+      <class name="Ngoc.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ngoc.HomePage@662ac478]" name="initialize" is-config="true" duration-ms="4542" started-at="2020-04-19T09:41:43 ICT" finished-at="2020-04-19T09:41:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ngoc.HomePage@662ac478]" name="homePageNavigation" duration-ms="12018" started-at="2020-04-19T09:41:48 ICT" data-provider="getData" finished-at="2020-04-19T09:42:00 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ngochiu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345cogN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ngoc.HomePage@662ac478]" name="homePageNavigation" duration-ms="7270" started-at="2020-04-19T09:42:00 ICT" data-provider="getData" finished-at="2020-04-19T09:42:07 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hieu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345Hieu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ngoc.HomePage@662ac478]" name="teardown" is-config="true" duration-ms="1672" started-at="2020-04-19T09:42:07 ICT" finished-at="2020-04-19T09:42:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ngoc.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="ValidateTitle" duration-ms="7802" started-at="2020-04-19T09:42:09 ICT" finished-at="2020-04-19T09:42:17 ICT">
+      <class name="Ngoc.ValidateTitle">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:Ngoc.ValidateTitle@2cd76f31]" name="homePageNavigation" duration-ms="6381" started-at="2020-04-19T09:42:09 ICT" finished-at="2020-04-19T09:42:15 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ngoc.ValidateTitle@2cd76f31]" name="teardown" is-config="true" duration-ms="1420" started-at="2020-04-19T09:42:15 ICT" finished-at="2020-04-19T09:42:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ngoc.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test name="ValidateNaBar" duration-ms="7847" started-at="2020-04-19T09:42:17 ICT" finished-at="2020-04-19T09:42:25 ICT">
+      <class name="Ngoc.ValidateNaBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ngoc.ValidateNaBar@1ce24091]" name="initialize" is-config="true" duration-ms="6282" started-at="2020-04-19T09:42:17 ICT" finished-at="2020-04-19T09:42:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:Ngoc.ValidateNaBar@1ce24091]" name="homePageNavigation" duration-ms="93" started-at="2020-04-19T09:42:23 ICT" finished-at="2020-04-19T09:42:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ngoc.ValidateNaBar@1ce24091]" name="teardown" is-config="true" duration-ms="1468" started-at="2020-04-19T09:42:23 ICT" finished-at="2020-04-19T09:42:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ngoc.ValidateNaBar -->
+    </test> <!-- ValidateNaBar -->
+  </suite> <!-- Suite -->
+</testng-results>

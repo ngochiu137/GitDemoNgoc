@@ -1,0 +1,17 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - Ngoc.listeners
+tests:
+  - name: HomePage
+  classes:
+    - Ngoc.HomePage
+
+  - name: ValidateTitle
+  classes:
+    - Ngoc.ValidateTitle
+
+  - name: ValidateNaBar
+  classes:
+    - Ngoc.ValidateNaBar
+
