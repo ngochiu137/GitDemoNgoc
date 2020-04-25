@@ -33,6 +33,13 @@ public class LogInPage {
 	{
 		return driver.findElement(login);
 	}
-			
+	
+	
+	public WebElement getLogIn2()
+	{
+		System.out.println("fake log in. please ignore");
+		return driver.findElement(login);
+	}
+	
 
 }
