@@ -25,6 +25,8 @@ public class ValidateTitle extends base{
 		log.info("initialize Driver");
 		driver.get("http://qaclickacademy.com");
 		System.out.println("ngoc update git");
+		System.out.println("homepage 1");
+		System.out.println("homepage 2");
 		
 		log.info("Welcome to academy.com homepage");
 		
